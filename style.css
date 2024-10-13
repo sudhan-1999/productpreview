@@ -1,0 +1,37 @@
+.btn{
+    background-color: hsl(158, 36%, 37%);
+    color:  hsl(0, 0%, 100%);
+    width: 100%;
+}
+.btn:hover{
+    background-color: hsl(158, 81%, 20%);
+    color:  hsl(0, 0%, 100%);
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin: 30px;
+}
+h2,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+h2{
+    font-family: 'Fraunces';
+    font-weight: 700;
+}
+h3{
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+h3,del{
+    display: inline-block;
+    margin: 10px;
+}
+.button{
+    margin: 15px;
+}
