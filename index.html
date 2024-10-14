@@ -15,36 +15,41 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="./style.css" rel="stylesheet" />
     <title>Product Preview</title>
   </head>
   <body>
     <div class="cover" id="cover">
+      <div>
     <div class="card mb-3" style="max-width: 560px">
       <div class="row g-0">
         <div class="col-md-6">
-           <picture>
-                <source srcset="./image/image-product-desktop.jpg" media="(min-width: 376px)">
-                <source srcset="./image/image-product-mobile.jpg" media="(max-width: 375px)">
-                <img src="./image/image-product-desktop.jpg" class="img-fluid rounded-start" alt="perfume"style="height:100%">
-            </picture>            
+          <picture>
+            <source srcset="./image/image-product-desktop.jpg" media="(min-width: 424px)" />
+            <source srcset="./image/image-product-mobile.jpg" media="(max-width: 425px)" />
+            <img src="./image/image-product-mobile.jpg" class="img-fluid rounded-start" alt="perfume" />
+          </picture>
         </div>
         <div class="col-md-6">
-          <div class="card-body">
-            <p>P E R F U M E</p>
+          <div class="card-body" id="body">
+            <p class="perfume">P E R F U M E</p>
             <h2>Gabrielle Essence Eau De Parfum</h2>
             <h6>
               A floral,solar and voluptuous interpretation composed by oliver
               polge, perfumer-creator for the House of CHANEL.
             </h6>
+            <div class="price" id="price">
             <h3>$149.99</h3><del>$169.99</del>
+          </div>
             <div class="button" id="button">
-                <button class="btn" id="addcart">Add to Cart</button>
+                <button class="btn" id="addcart"><i class="fa-solid fa-cart-shopping" id="icon"></i>Add to Cart</button>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 </div>
   </body>
 </html>
